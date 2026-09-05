@@ -1,0 +1,52 @@
+{
+  "id": "br.com.gestaopatrimonial.app",
+  "name": "Gestão Patrimonial — Motos & Kitnets",
+  "short_name": "Motos & Kitnets",
+  "description": "Sistema PWA completo para locação com opção de compra de motos, gestão de kitnets, controle financeiro, contratos e vistorias.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "background_color": "#121214",
+  "theme_color": "#8B5CF6",
+  "orientation": "any",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512 any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Cobranças & PIX",
+      "short_name": "Cobranças",
+      "description": "Acessar central de cobranças e faturas pendentes",
+      "url": "/#/cobrancas",
+      "icons": [{ "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Painel de Motos",
+      "short_name": "Motos",
+      "description": "Frota de motos, contratos e manutenções",
+      "url": "/#/motos",
+      "icons": [{ "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Painel de Kitnets",
+      "short_name": "Kitnets",
+      "description": "Imóveis, medidores e contratos de kitnets",
+      "url": "/#/kitnets",
+      "icons": [{ "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Fluxo Financeiro",
+      "short_name": "Financeiro",
+      "description": "DRE, receitas, despesas e fluxo de caixa",
+      "url": "/#/financeiro",
+      "icons": [{ "src": "/icon.svg", "sizes": "512x512", "type": "image/svg+xml" }]
+    }
+  ]
+}

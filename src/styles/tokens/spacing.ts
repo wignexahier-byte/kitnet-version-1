@@ -1,0 +1,14 @@
+export const spacing = {
+  none: '0px',
+  xs: '4px',
+  sm: '8px',
+  md: '12px',
+  lg: '16px',
+  xl: '24px',
+  '2xl': '32px',
+  '3xl': '48px',
+  '4xl': '64px',
+  containerPadding: '16px',
+  cardPadding: '20px',
+  modalPadding: '24px',
+} as const;

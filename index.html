@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR" class="min-h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no, viewport-fit=cover" />
+    <script>
+      // Bloqueia gestos de pinça multitoque indesejados sem interferir no scroll natural
+      document.addEventListener('gesturestart', function(e) { e.preventDefault(); }, { passive: false });
+    </script>
+    <title>Gestão de Motos & Kitnets</title>
+    <meta name="description" content="Sistema PWA completo para administração patrimonial, locação de motos com opção de compra, gestão de kitnets, controle financeiro, contratos e vistorias." />
+    <meta property="og:title" content="Gestão de Motos & Kitnets" />
+    <meta property="og:description" content="Sistema PWA completo para administração patrimonial, locação de motos com opção de compra, gestão de kitnets, controle financeiro, contratos e vistorias." />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Motos & Kitnets" />
+    <meta name="theme-color" content="#121214" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+  </head>
+  <body class="min-h-full bg-[#121214] text-[#F2F1ED] antialiased font-sans select-none sm:select-auto">
+    <div id="root" class="min-h-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

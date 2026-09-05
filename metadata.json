@@ -1,0 +1,8 @@
+{
+  "name": "Gestão de Motos & Kitnets",
+  "description": "Sistema PWA completo para administração patrimonial, locação de motos com opção de compra, gestão de kitnets, controle financeiro, contratos e vistorias.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
